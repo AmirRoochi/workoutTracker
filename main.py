@@ -6,10 +6,10 @@ current_date = datetime.now()
 formatted_date = current_date.strftime("%d/%m/%y")
 formatted_hour = current_date.strftime("%H:%M")
 
-APP_ID = "3dcff444"
-APP_KEY = "c3d5697a8a8801e28dbe7f41c3c7952c"
-sheety_username = "d37a51f16f09413469f9f8d8075d6199"
-sheety_project_name = "copyOfMyWorkouts"
+APP_ID = "APP ID goes here"
+APP_KEY = "APP Key goes here"
+sheety_username = "Username Goes here"
+sheety_project_name = "Project name goes here"
 headers = {
     "x-app-id": APP_ID,
     "x-app-key": APP_KEY,
